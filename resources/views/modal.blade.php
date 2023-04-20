@@ -1,10 +1,10 @@
-<!-- Add Modal -->
+<!-- Add -->
 <div class="modal fade" id="addnew" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 	<div class="modal-dialog" role="document">
 		<div class="modal-content">
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-				<h4 class="modal-title text-center" id="myModalLabel">Add New Member</h4>
+				<h4 class="modal-title text-center" id="myModalLabel"> Add New Member</h4>
 			</div>
 			<div class="modal-body">
 				{!! Form::open(['url' => 'save']) !!}
@@ -25,7 +25,7 @@
 				    		</div>
 				    		<div class="col-md-10">
 				    			{!! Form::text('lastname', '', ['class' => 'form-control', 'placeholder' => 'Input Lastname', 'required']) !!}
-				    		</div>
+				    		</div> 
 				    	</div>
 			    	</div>
 			</div>

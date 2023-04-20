@@ -19,8 +19,8 @@ class MemberController extends Controller
 
     public function save(Request $request){
     	$member = new Member;
-    	$member->firstname = $request->input('firstname');
-    	$member->lastname = $request->input('lastname');
+    	$member->firstname = $request->input('firstname'); 
+    	$member->lastname = $request->input('lastname'); 
   		$member->save();
 
   		return redirect('/');
@@ -29,8 +29,8 @@ class MemberController extends Controller
     public function update(Request $request, $id){
     	$member = Member::find($id);
     	$input = $request->all();
-		$member->fill($input)->save();
-
+		$member->fill($input)->save(); 
+ 
     	return redirect('/');
     }
     

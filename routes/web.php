@@ -11,12 +11,12 @@
 |
 */
 
-Route::get('/', 'MemberController@index');
+Route::get('/', 'MemberController@index'); 
 
 Route::get('/', 'MemberController@getMembers');
 
 Route::post('/save', 'MemberController@save');
 
-Route::patch('/update/{id}', ['as' => 'member.update', 'uses' => 'MemberController@update']);
+Route::patch('/update/{id}', ['as' => 'member.update', 'uses' => 'MemberController@update']); 
 
 Route::delete('/delete/{id}', ['as' => 'member.delete', 'uses' => 'MemberController@delete']);
