@@ -11,6 +11,7 @@
 |
 */
 
+
 Route::get('/', 'MemberController@index'); 
 
 Route::get('/', 'MemberController@getMembers');

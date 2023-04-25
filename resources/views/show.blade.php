@@ -23,6 +23,7 @@
 					<tr>
 						<td>{{$member->firstname}}</td>
 						<td>{{$member->lastname}}</td>
+						
 						<td><a href="#edit{{$member->id}}" data-toggle="modal" class="btn btn-success"><i class='fa fa-edit'></i>Edit</a> 
 							<a href="#delete{{$member->id}}" data-toggle="modal" class="btn btn-danger"><i class='fa fa-trash'></i> Delete</a>
 							@include('action')

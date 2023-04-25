@@ -1,4 +1,4 @@
-<!-- Edit -->
+<!-- Edit Member -->
 <div class="modal fade" id="edit{{$member->id}}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 	<div class="modal-dialog" role="document">
 		<div class="modal-content">
@@ -38,7 +38,7 @@
 	</div>
 </div>
 
-<!-- Delete -->
+<!-- Delete member -->
 <div class="modal fade" id="delete{{$member->id}}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 	<div class="modal-dialog" role="document">
 		<div class="modal-content">
